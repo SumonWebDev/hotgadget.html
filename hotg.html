@@ -8,7 +8,7 @@
 </head>
 <style>
     .container{
-        padding:80px;
+        padding:50px;
     }
     .categories h1{
         text-align: center;
@@ -19,12 +19,17 @@
         border-radius: 5px;
     }
     .laptop{
-        width: 100%;
         text-align: center;
+        background-image:url("bg-1.png");
+        background-repeat: no-repeat;
+        background-position:0% 100%;
     }
    .mac{
        text-align: center;
-       padding-top:130px;
+       padding-top: 300px;
+       background-image:url('bg-2.png');
+       background-repeat: no-repeat;
+       background-position:0% 100%;
    }
    .item{
        font-size: 30px;
@@ -32,11 +37,18 @@
    }
    .logo{
        float: left;
+       padding-top:25px;
    }
-    
+   .bag{
+      padding-top:70px;
+   }
+   .half{
+       text-align: center;
+   }
+   
 </style>
 <body> 
-    <div class="container item">
+    <div class="container">
         <li class="nav-item">
             <img class="logo" src="logo.png" alt="">
            </li>
@@ -57,14 +69,14 @@
     </div>
     <div class="container">
        <div class="row">
-           <div class="mac col-6">
+            <div class="mac col-6">
                 <h1>mackbook</h1>
                 <p>Contrary to populer belief,Lorem ipsum is not simply random text,it has roots in apiesce of classical latin literature</p>
                 <button class="butt">BUY NOW ></button>
            </div>
-           <div class="col-6">
-               <img class="laptop" src="hero.png" alt="">
-           </div>
+            <div class="laptop col-6">
+                <img src="hero.png" alt="">
+         </div>
        </div>
     </div>
 <div class="container">
@@ -131,6 +143,35 @@
         </div>
       </div>
       </div>
+      <div class="container">
+          <h1 class="half">Categories</h1>
+      </div>
+
+     
+   <div class="container">
+    <div class="row">
+        <div class="card border-light mb-3" style="max-width: 18rem;">
+            <div class="bag">
+                <div class="col-4">
+                    <img class="bag-center" src="bag.png" alt="">
+                </div>
+            </div>
+            </div>
+        <div class="card border-light mb-3" style="max-width: 18rem;">
+            <div class="shoe">
+                <div class="col-4">
+                    <img class="bag-center" src="shoe.png" alt="">
+                </div>
+            </div>
+            <div class="card border-light mb-3" style="max-width: 18rem;">
+                <div class="perfume">
+                    <div class="col-4">
+                        <img class="bag-center" src="perfume.png" alt="">
+                    </div>
+                </div>
+    </div>
+   </div>
+
 
 
 
