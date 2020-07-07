@@ -39,12 +39,30 @@
        float: left;
        padding-top:25px;
    }
-   .bag{
-      padding-top:70px;
-   }
    .half{
        text-align: center;
    }
+   .categories{
+    text-align: center;
+}
+.cat4 img{
+    width: 100%;
+}
+.cat1{
+    padding-top: 140px;
+    float: left;
+}
+.cat2{
+    float: left;
+    padding-top:100px;
+   
+}
+.cat{
+    text-align: center;
+}
+.card{
+    padding-top: 50px;
+}
    
 </style>
 <body> 
@@ -147,31 +165,48 @@
           <h1 class="half">Categories</h1>
       </div>
 
-     
-   <div class="container">
-    <div class="row">
-        <div class="card border-light mb-3" style="max-width: 18rem;">
-            <div class="bag">
-                <div class="col-4">
-                    <img class="bag-center" src="bag.png" alt="">
-                </div>
-            </div>
-            </div>
-        <div class="card border-light mb-3" style="max-width: 18rem;">
-            <div class="shoe">
-                <div class="col-4">
-                    <img class="bag-center" src="shoe.png" alt="">
-                </div>
-            </div>
-            <div class="card border-light mb-3" style="max-width: 18rem;">
-                <div class="perfume">
-                    <div class="col-4">
-                        <img class="bag-center" src="perfume.png" alt="">
+      <div class="container cat">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="cat1">
+                    <div class="col-md-3">
+                        <div class="card" style="width: 9rem;height:15rem;">
+                            <div class="card-body">
+                                <img src="bag.png" alt="">
+                              <h5 class="card-title">bag</h5>
+                            </div>
+                          </div>  
                     </div>
                 </div>
-    </div>
-   </div>
-
+                <div class="card" style="width: 9rem;height:15rem;">
+                    <div class="card-body">
+                        <img src="perfume.png" alt="">
+                      <h5 class="card-title">Beauty</h5>
+                    </div>
+                  </div>
+                    <div class="cat2">
+                        <div class="col-md-3">
+                            <div class="card" style="width: 9rem;height:15rem;">
+                                <div class="card-body">
+                                    <img src="shoe.png" alt=""> 
+                                  <h5 class="card-title">shoe</h5>
+                                 
+                                </div>
+                              </div>
+                            
+                        </div>
+                    </div>
+            </div>
+            <div class="col-md-6">
+              <div class="cat4">
+                <img src="pale-order.png" alt="">
+              </div>
+           </div>
+        </div>
+      </div>
+    
+  
 
 
 
